@@ -6,11 +6,11 @@ This readme file will be used to document whole process of deploying website usi
 
 For this project, I will be using my own personal website that has been created for Week 1 project.
 
-[Personal Website](https://mahdiharish.netlify.app/)
+[https://mahdiharish.netlify.app/](https://mahdiharish.netlify.app/)
 
 This is my personal website with URL using Netlify.
 
-[Personal Website with Custom Domain](https://mahdiharish.site)
+[https://mahdiharish.site](https://mahdiharish.site)
 
 This is my personal website with custom domain URL.
 
