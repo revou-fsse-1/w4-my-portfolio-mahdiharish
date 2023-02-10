@@ -85,3 +85,57 @@ Afterwards, choose what we want and proceed to purchase it.
 6. After we complete our purchase and review it, we can proceed to our domain page in Niagahoster's website, which looks like this.
 
 ![Domain page in Niagahoster](./assets/step-13.jpg)
+
+Now, we can proceed to Cloudflare to add layer of security protection for our website.
+
+## SETTING UP CLOUDFLARE
+
+1. Go to Cloudflare website and sign up/log in our account to start working.
+
+![Cloudflare homepage](./assets/step-14.jpg)
+
+2. After logging in, we will be redirected to our account's dashboard.
+
+![Cloudflare's account dashboard](./assets/step-15.jpg)
+
+3. Add our previously purchased domain's name at **Add site** above, and then enter our domain's name
+
+![Add site](./assets/step-16.jpg)
+
+4. Select plan for the website. Choose free one and click **Continue**.
+
+![Payment plan](./assets/step-17.jpg)
+
+5. After completing our selection, you need to complete your name server setup. Just skip steps after choosing plans and then go to **Overview** page for more details.
+
+![Overview page](./assets/step-18.jpg)
+
+Copy Cloudflare's nameservers and paste it to Niagahoster's overview domain page.
+
+![Cloudflare's nameservers](./assets/step-19.jpg)
+
+And then replace Niagahoster's nameservers with Cloudflare ones.
+
+![Niagahoster's nameservers](./assets/step-20.jpg)
+
+Please note that updating nameservers can take time up to 24 hours, so we need to wait for now. We can still proceed to next steps.
+
+6. Now, we need to set up our DNS Record. Go to DNS tab on the left, and then choose DNS Management section. Click **Add Record**, and then choose CNAME for the type, and make the **Name** section _@_ and _www_, and then fill the **Target** section with our Netlify page.
+
+![Cloudflare DNS Management](./assets/step-21.jpg)
+
+Afterwards, we can proceed to our Netlify page to set up our custom domain page.
+
+## SETTING UP CUSTOM DOMAIN IN NETLIFY
+
+1. Go to our website page in Netlify, and then click **Set up a custom domain**.
+
+![Website page in Netlify](./assets/step-22.jpg)
+
+2. Fill our custom domain purchased before, and then click **Verify**. Afterwards, click **Add domain**.
+
+![Add domain](./assets/step-23.jpg)
+
+3. You can check the custom domain's settings here. Afterwards your website with custom domain should be able to go live now.
+
+![Custom domain page in Netlify](./assets/step-24.jpg)
